@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM alpine:3.20
 
 RUN apk update
 
