@@ -5,3 +5,7 @@ services:
   latest:
     image: tmvdl/ollama:latest
     build: './src/latest'
+
+  alpine:
+    image: tmvdl/ollama:alpine
+    build: './src/alpine'
